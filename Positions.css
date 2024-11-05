@@ -1,0 +1,48 @@
+.parent{
+    margin: 0;
+    background-color:purple;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position:fixed;
+    width: 100%;
+}
+.child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+img{
+    display: block;
+    width:200px;
+    height: 200px;
+    z-index:-1;
+}
+.image1{
+    position: relative;
+    top:10rem;
+    left:20rem;
+}
+.image2{
+    position: relative;
+    top:10rem;
+    left:35rem;
+}
+.image3{
+    position: relative;
+    top:10rem;
+    left:20rem;
+}
+.image4{
+    position: relative;
+    bottom:28rem;
+    left:50rem;
+}
+.image5{
+    position: relative;
+    bottom:15rem;
+    left:50rem;
+}
